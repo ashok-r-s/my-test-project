@@ -26,7 +26,7 @@ pipeline:
            # Use script as well
            script:
              - sh "mvn clean test"
-             - sh "echo "the build worked! The payload is $payload"
+             - sh "echo the build worked! The payload is $payload"
  # Define post actions
  post:
    always:
