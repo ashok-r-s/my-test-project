@@ -7,7 +7,7 @@ pipeline:
    maven: maven
  # Defines stages
  stages:
-   # Define checkout stage testing
+   # Define checkout stage
    - stage: Checkout
      # Define steps
      steps:
